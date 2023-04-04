@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Calculating Fahrenheit to Celsius">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Theo Rafuse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="shortcut icon" href="./images/">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculating Fahrenheit to Celsius</title>
+  </head>
+    <body>
+    <script src="./js/script.js"></script>
+    <h1>Calculator for Fahrenheit to Celsius</h1>
+    <img src="./images/FahrenheittoCelsius.png" alt="E">
+      <!-- This is the code for calculating Celsius -->
+      <p>
+      <h3>Calculate for Celsius:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="f-value">Fahrenheit value:</label>
+        <input type="number" id="f-value" placeholder="Fahrenheit" step=".01"><br><br>
+        <input type="submit" value="Calculate Celsius">
+      </form>
+    </p>
+    <!-- Create a space where the user information will be displayed -->
+    <div id="celsius-info"></div>
+    <p></p>
+      
+  </body>
+</html>
